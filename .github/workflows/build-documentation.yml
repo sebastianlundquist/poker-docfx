@@ -47,7 +47,7 @@ jobs:
         unzip -d .docfx docfx.zip
         
     - name: Find out what's going on
-      run: find /home/runner/work/poker-docfx -type d -print
+      run: find /home/runner/work/poker-docfx -type f -print
 
     - name: Build docs
       run: mono .docfx/docfx.exe

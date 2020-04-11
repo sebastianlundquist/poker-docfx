@@ -45,11 +45,6 @@ jobs:
       run: |
         curl -L https://github.com/dotnet/docfx/releases/latest/download/docfx.zip -o docfx.zip
         unzip -d .docfx docfx.zip
-        
-    - name: Check what's going on
-      run: |
-        cd ..
-        ls
 
     - name: Build docs
       run: mono .docfx/docfx.exe

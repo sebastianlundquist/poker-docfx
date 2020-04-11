@@ -47,11 +47,7 @@ jobs:
         unzip -d .docfx docfx.zip
 
     - name: Build docs
-      run: |
-        cd docs
-        ls
-        cd ..
-        mono .docfx/docfx.exe
+      run: mono .docfx/docfx.exe
       
     - name: Commit and push
       run: |

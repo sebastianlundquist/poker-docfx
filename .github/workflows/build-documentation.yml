@@ -1,0 +1,53 @@
+name: Build Documentation
+
+on:
+  repository_dispatch:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v1
+      with:
+        path: docs
+        fetch-depth: 1
+    - name: Checkout live docs repo
+      uses: actions/checkout@v1
+      with:
+        repository: sebastianlundquist/poker-docs
+        ref: master
+        fetch-depth: 1
+        path: docs/live
+    - name: Clear live docs repo
+      run: rm -rf live/*
+    - name: Checkout poker
+      uses: actions/checkout@v1
+      with:
+        repository: sebastianlundquist/poker
+        ref: master
+        fetch-depth: 1
+        path: docs/poker
+
+    - name: Get docfx
+      run: |
+        curl -L https://github.com/dotnet/docfx/releases/latest/download/docfx.zip -o docfx.zip
+        unzip -d .docfx docfx.zip
+
+    - name: Build docs
+      run:  mono .docfx/docfx.exe
+      
+    - name: Commit and push
+      run: |
+        cd live
+        git config --global user.email "dev.sebastian.lundquist@gmail.com"
+        git config --global user.name "Automated System"
+        git add .
+        git commit -m "Automated update" --author $GITHUB_ACTOR
+        header=$(echo -n "ad-m:$" | base64)
+        git -c http.extraheader="AUTHORIZATION: basic $header" push origin HEAD:master

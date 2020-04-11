@@ -16,13 +16,11 @@ jobs:
       uses: actions/checkout@v1
       with:
         path: docs
-        fetch-depth: 1
     - name: Checkout live docs repo
       uses: actions/checkout@v1
       with:
         repository: sebastianlundquist/poker-docs
         ref: master
-        fetch-depth: 1
         path: docs/live
     - name: Clear live docs repo
       run: rm -rf live/*
@@ -31,7 +29,6 @@ jobs:
       with:
         repository: sebastianlundquist/poker
         ref: master
-        fetch-depth: 1
         path: docs/poker
 
     - name: Get docfx

@@ -1,0 +1,326 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardEngine.Suit
+  commentId: T:CardEngine.Suit
+  id: Suit
+  parent: CardEngine
+  children:
+  - CardEngine.Suit.Clubs
+  - CardEngine.Suit.Diamonds
+  - CardEngine.Suit.Hearts
+  - CardEngine.Suit.Spades
+  langs:
+  - csharp
+  - vb
+  name: Suit
+  nameWithType: Suit
+  fullName: CardEngine.Suit
+  type: Enum
+  source:
+    remote:
+      path: src/CardEngine/Suit.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: Suit
+    path: ../src/CardEngine/Suit.cs
+    startLine: 8
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  summary: "\nRepresents the suit of a Card.\n"
+  example: []
+  syntax:
+    content: public enum Suit
+    content.vb: Public Enum Suit
+  see:
+  - linkId: CardEngine.Card
+    commentId: T:CardEngine.Card
+  extensionMethods:
+  - CardEngine.Suit.CardEngine.SuitExtensions.ToShortString
+  - CardEngine.Suit.CardEngine.SuitExtensions.Color
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: CardEngine.Suit.Clubs
+  commentId: F:CardEngine.Suit.Clubs
+  id: Clubs
+  parent: CardEngine.Suit
+  langs:
+  - csharp
+  - vb
+  name: Clubs
+  nameWithType: Suit.Clubs
+  fullName: CardEngine.Suit.Clubs
+  type: Field
+  source:
+    remote:
+      path: src/CardEngine/Suit.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: Clubs
+    path: ../src/CardEngine/Suit.cs
+    startLine: 10
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  syntax:
+    content: Clubs = 0
+    return:
+      type: CardEngine.Suit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardEngine.Suit.Diamonds
+  commentId: F:CardEngine.Suit.Diamonds
+  id: Diamonds
+  parent: CardEngine.Suit
+  langs:
+  - csharp
+  - vb
+  name: Diamonds
+  nameWithType: Suit.Diamonds
+  fullName: CardEngine.Suit.Diamonds
+  type: Field
+  source:
+    remote:
+      path: src/CardEngine/Suit.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: Diamonds
+    path: ../src/CardEngine/Suit.cs
+    startLine: 11
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  syntax:
+    content: Diamonds = 1
+    return:
+      type: CardEngine.Suit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardEngine.Suit.Spades
+  commentId: F:CardEngine.Suit.Spades
+  id: Spades
+  parent: CardEngine.Suit
+  langs:
+  - csharp
+  - vb
+  name: Spades
+  nameWithType: Suit.Spades
+  fullName: CardEngine.Suit.Spades
+  type: Field
+  source:
+    remote:
+      path: src/CardEngine/Suit.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: Spades
+    path: ../src/CardEngine/Suit.cs
+    startLine: 12
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  syntax:
+    content: Spades = 2
+    return:
+      type: CardEngine.Suit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardEngine.Suit.Hearts
+  commentId: F:CardEngine.Suit.Hearts
+  id: Hearts
+  parent: CardEngine.Suit
+  langs:
+  - csharp
+  - vb
+  name: Hearts
+  nameWithType: Suit.Hearts
+  fullName: CardEngine.Suit.Hearts
+  type: Field
+  source:
+    remote:
+      path: src/CardEngine/Suit.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: Hearts
+    path: ../src/CardEngine/Suit.cs
+    startLine: 13
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  syntax:
+    content: Hearts = 3
+    return:
+      type: CardEngine.Suit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: CardEngine.Card
+  commentId: T:CardEngine.Card
+  parent: CardEngine
+  name: Card
+  nameWithType: Card
+  fullName: CardEngine.Card
+- uid: CardEngine
+  commentId: N:CardEngine
+  name: CardEngine
+  nameWithType: CardEngine
+  fullName: CardEngine
+- uid: CardEngine.Suit.CardEngine.SuitExtensions.ToShortString
+  commentId: M:CardEngine.SuitExtensions.ToShortString(CardEngine.Suit)
+  parent: CardEngine.SuitExtensions
+  definition: CardEngine.SuitExtensions.ToShortString(CardEngine.Suit)
+  name: ToShortString()
+  nameWithType: SuitExtensions.ToShortString()
+  fullName: CardEngine.SuitExtensions.ToShortString()
+  spec.csharp:
+  - uid: CardEngine.SuitExtensions.ToShortString
+    name: ToShortString
+    nameWithType: SuitExtensions.ToShortString
+    fullName: CardEngine.SuitExtensions.ToShortString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CardEngine.SuitExtensions.ToShortString
+    name: ToShortString
+    nameWithType: SuitExtensions.ToShortString
+    fullName: CardEngine.SuitExtensions.ToShortString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CardEngine.Suit.CardEngine.SuitExtensions.Color
+  commentId: M:CardEngine.SuitExtensions.Color(CardEngine.Suit)
+  parent: CardEngine.SuitExtensions
+  definition: CardEngine.SuitExtensions.Color(CardEngine.Suit)
+  name: Color()
+  nameWithType: SuitExtensions.Color()
+  fullName: CardEngine.SuitExtensions.Color()
+  spec.csharp:
+  - uid: CardEngine.SuitExtensions.Color
+    name: Color
+    nameWithType: SuitExtensions.Color
+    fullName: CardEngine.SuitExtensions.Color
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CardEngine.SuitExtensions.Color
+    name: Color
+    nameWithType: SuitExtensions.Color
+    fullName: CardEngine.SuitExtensions.Color
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CardEngine.SuitExtensions.ToShortString(CardEngine.Suit)
+  commentId: M:CardEngine.SuitExtensions.ToShortString(CardEngine.Suit)
+  name: ToShortString(Suit)
+  nameWithType: SuitExtensions.ToShortString(Suit)
+  fullName: CardEngine.SuitExtensions.ToShortString(CardEngine.Suit)
+  spec.csharp:
+  - uid: CardEngine.SuitExtensions.ToShortString(CardEngine.Suit)
+    name: ToShortString
+    nameWithType: SuitExtensions.ToShortString
+    fullName: CardEngine.SuitExtensions.ToShortString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CardEngine.Suit
+    name: Suit
+    nameWithType: Suit
+    fullName: CardEngine.Suit
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CardEngine.SuitExtensions.ToShortString(CardEngine.Suit)
+    name: ToShortString
+    nameWithType: SuitExtensions.ToShortString
+    fullName: CardEngine.SuitExtensions.ToShortString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CardEngine.Suit
+    name: Suit
+    nameWithType: Suit
+    fullName: CardEngine.Suit
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CardEngine.SuitExtensions
+  commentId: T:CardEngine.SuitExtensions
+  parent: CardEngine
+  name: SuitExtensions
+  nameWithType: SuitExtensions
+  fullName: CardEngine.SuitExtensions
+- uid: CardEngine.SuitExtensions.Color(CardEngine.Suit)
+  commentId: M:CardEngine.SuitExtensions.Color(CardEngine.Suit)
+  name: Color(Suit)
+  nameWithType: SuitExtensions.Color(Suit)
+  fullName: CardEngine.SuitExtensions.Color(CardEngine.Suit)
+  spec.csharp:
+  - uid: CardEngine.SuitExtensions.Color(CardEngine.Suit)
+    name: Color
+    nameWithType: SuitExtensions.Color
+    fullName: CardEngine.SuitExtensions.Color
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CardEngine.Suit
+    name: Suit
+    nameWithType: Suit
+    fullName: CardEngine.Suit
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CardEngine.SuitExtensions.Color(CardEngine.Suit)
+    name: Color
+    nameWithType: SuitExtensions.Color
+    fullName: CardEngine.SuitExtensions.Color
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CardEngine.Suit
+    name: Suit
+    nameWithType: Suit
+    fullName: CardEngine.Suit
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CardEngine.Suit
+  commentId: T:CardEngine.Suit
+  parent: CardEngine
+  name: Suit
+  nameWithType: Suit
+  fullName: CardEngine.Suit

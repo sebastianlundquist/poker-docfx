@@ -1,0 +1,916 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardEngine.Card
+  commentId: T:CardEngine.Card
+  id: Card
+  parent: CardEngine
+  children:
+  - CardEngine.Card.#ctor(CardEngine.Rank,CardEngine.Suit)
+  - CardEngine.Card.Equals(System.Object)
+  - CardEngine.Card.GetHashCode
+  - CardEngine.Card.op_Equality(CardEngine.Card,CardEngine.Card)
+  - CardEngine.Card.op_Inequality(CardEngine.Card,CardEngine.Card)
+  - CardEngine.Card.Rank
+  - CardEngine.Card.Suit
+  - CardEngine.Card.ToString
+  langs:
+  - csharp
+  - vb
+  name: Card
+  nameWithType: Card
+  fullName: CardEngine.Card
+  type: Class
+  source:
+    remote:
+      path: src/CardEngine/Card.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: Card
+    path: ../src/CardEngine/Card.cs
+    startLine: 8
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  summary: "\nRepresents a card in a standard 52-card Deck.\n"
+  example: []
+  syntax:
+    content: public class Card
+    content.vb: Public Class Card
+  see:
+  - linkId: CardEngine.Deck
+    commentId: T:CardEngine.Deck
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - CardEngine.Card.CardEngine.CardExtension.ToShortString
+  - CardEngine.Card.ConsolePokerClient.CardPrinter.Print
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CardEngine.Card.Rank
+  commentId: P:CardEngine.Card.Rank
+  id: Rank
+  parent: CardEngine.Card
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: Card.Rank
+  fullName: CardEngine.Card.Rank
+  type: Property
+  source:
+    remote:
+      path: src/CardEngine/Card.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: Rank
+    path: ../src/CardEngine/Card.cs
+    startLine: 14
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  summary: "\nThe Rank of the Card.\n"
+  example: []
+  syntax:
+    content: public Rank Rank { get; set; }
+    parameters: []
+    return:
+      type: CardEngine.Rank
+    content.vb: Public Property Rank As Rank
+  overload: CardEngine.Card.Rank*
+  see:
+  - linkId: CardEngine.Card.Rank
+    commentId: P:CardEngine.Card.Rank
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CardEngine.Card.Suit
+  commentId: P:CardEngine.Card.Suit
+  id: Suit
+  parent: CardEngine.Card
+  langs:
+  - csharp
+  - vb
+  name: Suit
+  nameWithType: Card.Suit
+  fullName: CardEngine.Card.Suit
+  type: Property
+  source:
+    remote:
+      path: src/CardEngine/Card.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: Suit
+    path: ../src/CardEngine/Card.cs
+    startLine: 20
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  summary: "\nThe Suit of the Card.\n"
+  example: []
+  syntax:
+    content: public Suit Suit { get; set; }
+    parameters: []
+    return:
+      type: CardEngine.Suit
+    content.vb: Public Property Suit As Suit
+  overload: CardEngine.Card.Suit*
+  see:
+  - linkId: CardEngine.Card.Suit
+    commentId: P:CardEngine.Card.Suit
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CardEngine.Card.#ctor(CardEngine.Rank,CardEngine.Suit)
+  commentId: M:CardEngine.Card.#ctor(CardEngine.Rank,CardEngine.Suit)
+  id: '#ctor(CardEngine.Rank,CardEngine.Suit)'
+  parent: CardEngine.Card
+  langs:
+  - csharp
+  - vb
+  name: Card(Rank, Suit)
+  nameWithType: Card.Card(Rank, Suit)
+  fullName: CardEngine.Card.Card(CardEngine.Rank, CardEngine.Suit)
+  type: Constructor
+  source:
+    remote:
+      path: src/CardEngine/Card.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: .ctor
+    path: ../src/CardEngine/Card.cs
+    startLine: 27
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  summary: "\nConstructs a Card with a given Rank and Suit.\n"
+  example: []
+  syntax:
+    content: public Card(Rank rank, Suit suit)
+    parameters:
+    - id: rank
+      type: CardEngine.Rank
+      description: The given Rank.
+    - id: suit
+      type: CardEngine.Suit
+      description: The given Suit.
+    content.vb: Public Sub New(rank As Rank, suit As Suit)
+  overload: CardEngine.Card.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardEngine.Card.ToString
+  commentId: M:CardEngine.Card.ToString
+  id: ToString
+  parent: CardEngine.Card
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Card.ToString()
+  fullName: CardEngine.Card.ToString()
+  type: Method
+  source:
+    remote:
+      path: src/CardEngine/Card.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: ToString
+    path: ../src/CardEngine/Card.cs
+    startLine: 37
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  summary: "\nConverts the Card to its equivalent string representation.\n"
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The string representation.
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: CardEngine.Card.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: CardEngine.Card.Equals(System.Object)
+  commentId: M:CardEngine.Card.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: CardEngine.Card
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: Card.Equals(Object)
+  fullName: CardEngine.Card.Equals(System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/CardEngine/Card.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: Equals
+    path: ../src/CardEngine/Card.cs
+    startLine: 47
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  summary: "\nDetermines whether the specified object is equal to the actual object.\n"
+  example: []
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The specified object.
+    return:
+      type: System.Boolean
+      description: True if the objects are equal. False if the objects are not equal.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: CardEngine.Card.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: CardEngine.Card.GetHashCode
+  commentId: M:CardEngine.Card.GetHashCode
+  id: GetHashCode
+  parent: CardEngine.Card
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: Card.GetHashCode()
+  fullName: CardEngine.Card.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: src/CardEngine/Card.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: GetHashCode
+    path: ../src/CardEngine/Card.cs
+    startLine: 60
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  summary: "\nOverride of GetHashCode.\n"
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: The hash code.
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overridden: System.Object.GetHashCode
+  overload: CardEngine.Card.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: CardEngine.Card.op_Equality(CardEngine.Card,CardEngine.Card)
+  commentId: M:CardEngine.Card.op_Equality(CardEngine.Card,CardEngine.Card)
+  id: op_Equality(CardEngine.Card,CardEngine.Card)
+  parent: CardEngine.Card
+  langs:
+  - csharp
+  - vb
+  name: Equality(Card, Card)
+  nameWithType: Card.Equality(Card, Card)
+  fullName: CardEngine.Card.Equality(CardEngine.Card, CardEngine.Card)
+  type: Operator
+  source:
+    remote:
+      path: src/CardEngine/Card.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: op_Equality
+    path: ../src/CardEngine/Card.cs
+    startLine: 74
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  summary: "\nOverride of operator==.\n"
+  example: []
+  syntax:
+    content: public static bool operator ==(Card left, Card right)
+    parameters:
+    - id: left
+      type: CardEngine.Card
+      description: Left Card.
+    - id: right
+      type: CardEngine.Card
+      description: Right Card.
+    return:
+      type: System.Boolean
+      description: True if left and right Cards are equal. False if left and right Cards are not equal.
+    content.vb: Public Shared Operator =(left As Card, right As Card) As Boolean
+  overload: CardEngine.Card.op_Equality*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CardEngine.Card.op_Inequality(CardEngine.Card,CardEngine.Card)
+  commentId: M:CardEngine.Card.op_Inequality(CardEngine.Card,CardEngine.Card)
+  id: op_Inequality(CardEngine.Card,CardEngine.Card)
+  parent: CardEngine.Card
+  langs:
+  - csharp
+  - vb
+  name: Inequality(Card, Card)
+  nameWithType: Card.Inequality(Card, Card)
+  fullName: CardEngine.Card.Inequality(CardEngine.Card, CardEngine.Card)
+  type: Operator
+  source:
+    remote:
+      path: src/CardEngine/Card.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: op_Inequality
+    path: ../src/CardEngine/Card.cs
+    startLine: 85
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  summary: "\nOverride of operator!=.\n"
+  example: []
+  syntax:
+    content: public static bool operator !=(Card left, Card right)
+    parameters:
+    - id: left
+      type: CardEngine.Card
+      description: Left Card.
+    - id: right
+      type: CardEngine.Card
+      description: Right Card.
+    return:
+      type: System.Boolean
+      description: True if left and right Cards are not equal. False if left and right Cards are equal.
+    content.vb: Public Shared Operator <>(left As Card, right As Card) As Boolean
+  overload: CardEngine.Card.op_Inequality*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: CardEngine.Deck
+  commentId: T:CardEngine.Deck
+  parent: CardEngine
+  name: Deck
+  nameWithType: Deck
+  fullName: CardEngine.Deck
+- uid: CardEngine
+  commentId: N:CardEngine
+  name: CardEngine
+  nameWithType: CardEngine
+  fullName: CardEngine
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CardEngine.Card.CardEngine.CardExtension.ToShortString
+  commentId: M:CardEngine.CardExtension.ToShortString(CardEngine.Card)
+  parent: CardEngine.CardExtension
+  definition: CardEngine.CardExtension.ToShortString(CardEngine.Card)
+  name: ToShortString()
+  nameWithType: CardExtension.ToShortString()
+  fullName: CardEngine.CardExtension.ToShortString()
+  spec.csharp:
+  - uid: CardEngine.CardExtension.ToShortString
+    name: ToShortString
+    nameWithType: CardExtension.ToShortString
+    fullName: CardEngine.CardExtension.ToShortString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CardEngine.CardExtension.ToShortString
+    name: ToShortString
+    nameWithType: CardExtension.ToShortString
+    fullName: CardEngine.CardExtension.ToShortString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CardEngine.Card.ConsolePokerClient.CardPrinter.Print
+  commentId: M:ConsolePokerClient.CardPrinter.Print(CardEngine.Card)
+  parent: ConsolePokerClient.CardPrinter
+  definition: ConsolePokerClient.CardPrinter.Print(CardEngine.Card)
+  name: Print()
+  nameWithType: CardPrinter.Print()
+  fullName: ConsolePokerClient.CardPrinter.Print()
+  spec.csharp:
+  - uid: ConsolePokerClient.CardPrinter.Print
+    name: Print
+    nameWithType: CardPrinter.Print
+    fullName: ConsolePokerClient.CardPrinter.Print
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: ConsolePokerClient.CardPrinter.Print
+    name: Print
+    nameWithType: CardPrinter.Print
+    fullName: ConsolePokerClient.CardPrinter.Print
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CardEngine.CardExtension.ToShortString(CardEngine.Card)
+  commentId: M:CardEngine.CardExtension.ToShortString(CardEngine.Card)
+  name: ToShortString(Card)
+  nameWithType: CardExtension.ToShortString(Card)
+  fullName: CardEngine.CardExtension.ToShortString(CardEngine.Card)
+  spec.csharp:
+  - uid: CardEngine.CardExtension.ToShortString(CardEngine.Card)
+    name: ToShortString
+    nameWithType: CardExtension.ToShortString
+    fullName: CardEngine.CardExtension.ToShortString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CardEngine.Card
+    name: Card
+    nameWithType: Card
+    fullName: CardEngine.Card
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CardEngine.CardExtension.ToShortString(CardEngine.Card)
+    name: ToShortString
+    nameWithType: CardExtension.ToShortString
+    fullName: CardEngine.CardExtension.ToShortString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CardEngine.Card
+    name: Card
+    nameWithType: Card
+    fullName: CardEngine.Card
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CardEngine.CardExtension
+  commentId: T:CardEngine.CardExtension
+  parent: CardEngine
+  name: CardExtension
+  nameWithType: CardExtension
+  fullName: CardEngine.CardExtension
+- uid: ConsolePokerClient.CardPrinter.Print(CardEngine.Card)
+  commentId: M:ConsolePokerClient.CardPrinter.Print(CardEngine.Card)
+  name: Print(Card)
+  nameWithType: CardPrinter.Print(Card)
+  fullName: ConsolePokerClient.CardPrinter.Print(CardEngine.Card)
+  spec.csharp:
+  - uid: ConsolePokerClient.CardPrinter.Print(CardEngine.Card)
+    name: Print
+    nameWithType: CardPrinter.Print
+    fullName: ConsolePokerClient.CardPrinter.Print
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CardEngine.Card
+    name: Card
+    nameWithType: Card
+    fullName: CardEngine.Card
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: ConsolePokerClient.CardPrinter.Print(CardEngine.Card)
+    name: Print
+    nameWithType: CardPrinter.Print
+    fullName: ConsolePokerClient.CardPrinter.Print
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CardEngine.Card
+    name: Card
+    nameWithType: Card
+    fullName: CardEngine.Card
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ConsolePokerClient.CardPrinter
+  commentId: T:ConsolePokerClient.CardPrinter
+  parent: ConsolePokerClient
+  name: CardPrinter
+  nameWithType: CardPrinter
+  fullName: ConsolePokerClient.CardPrinter
+- uid: ConsolePokerClient
+  commentId: N:ConsolePokerClient
+  name: ConsolePokerClient
+  nameWithType: ConsolePokerClient
+  fullName: ConsolePokerClient
+- uid: CardEngine.Card.Rank
+  commentId: P:CardEngine.Card.Rank
+  isExternal: true
+- uid: CardEngine.Card.Rank*
+  commentId: Overload:CardEngine.Card.Rank
+  name: Rank
+  nameWithType: Card.Rank
+  fullName: CardEngine.Card.Rank
+- uid: CardEngine.Rank
+  commentId: T:CardEngine.Rank
+  parent: CardEngine
+  name: Rank
+  nameWithType: Rank
+  fullName: CardEngine.Rank
+- uid: CardEngine.Card.Suit
+  commentId: P:CardEngine.Card.Suit
+  isExternal: true
+- uid: CardEngine.Card.Suit*
+  commentId: Overload:CardEngine.Card.Suit
+  name: Suit
+  nameWithType: Card.Suit
+  fullName: CardEngine.Card.Suit
+- uid: CardEngine.Suit
+  commentId: T:CardEngine.Suit
+  parent: CardEngine
+  name: Suit
+  nameWithType: Suit
+  fullName: CardEngine.Suit
+- uid: CardEngine.Card.#ctor*
+  commentId: Overload:CardEngine.Card.#ctor
+  name: Card
+  nameWithType: Card.Card
+  fullName: CardEngine.Card.Card
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CardEngine.Card.ToString*
+  commentId: Overload:CardEngine.Card.ToString
+  name: ToString
+  nameWithType: Card.ToString
+  fullName: CardEngine.Card.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CardEngine.Card.Equals*
+  commentId: Overload:CardEngine.Card.Equals
+  name: Equals
+  nameWithType: Card.Equals
+  fullName: CardEngine.Card.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CardEngine.Card.GetHashCode*
+  commentId: Overload:CardEngine.Card.GetHashCode
+  name: GetHashCode
+  nameWithType: Card.GetHashCode
+  fullName: CardEngine.Card.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: CardEngine.Card.op_Equality*
+  commentId: Overload:CardEngine.Card.op_Equality
+  name: Equality
+  nameWithType: Card.Equality
+  fullName: CardEngine.Card.Equality
+- uid: CardEngine.Card
+  commentId: T:CardEngine.Card
+  parent: CardEngine
+  name: Card
+  nameWithType: Card
+  fullName: CardEngine.Card
+- uid: CardEngine.Card.op_Inequality*
+  commentId: Overload:CardEngine.Card.op_Inequality
+  name: Inequality
+  nameWithType: Card.Inequality
+  fullName: CardEngine.Card.Inequality

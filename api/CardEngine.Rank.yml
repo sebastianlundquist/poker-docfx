@@ -1,0 +1,558 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardEngine.Rank
+  commentId: T:CardEngine.Rank
+  id: Rank
+  parent: CardEngine
+  children:
+  - CardEngine.Rank.Ace
+  - CardEngine.Rank.Eight
+  - CardEngine.Rank.Five
+  - CardEngine.Rank.Four
+  - CardEngine.Rank.Jack
+  - CardEngine.Rank.King
+  - CardEngine.Rank.Nine
+  - CardEngine.Rank.Queen
+  - CardEngine.Rank.Seven
+  - CardEngine.Rank.Six
+  - CardEngine.Rank.Ten
+  - CardEngine.Rank.Three
+  - CardEngine.Rank.Two
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: Rank
+  fullName: CardEngine.Rank
+  type: Enum
+  source:
+    remote:
+      path: src/CardEngine/Rank.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: Rank
+    path: ../src/CardEngine/Rank.cs
+    startLine: 8
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  summary: "\nRepresents the rank of a Card.\n"
+  example: []
+  syntax:
+    content: public enum Rank
+    content.vb: Public Enum Rank
+  see:
+  - linkId: CardEngine.Card
+    commentId: T:CardEngine.Card
+  extensionMethods:
+  - CardEngine.Rank.CardEngine.RankExtensions.ToShortString
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: CardEngine.Rank.Two
+  commentId: F:CardEngine.Rank.Two
+  id: Two
+  parent: CardEngine.Rank
+  langs:
+  - csharp
+  - vb
+  name: Two
+  nameWithType: Rank.Two
+  fullName: CardEngine.Rank.Two
+  type: Field
+  source:
+    remote:
+      path: src/CardEngine/Rank.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: Two
+    path: ../src/CardEngine/Rank.cs
+    startLine: 10
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  syntax:
+    content: Two = 0
+    return:
+      type: CardEngine.Rank
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardEngine.Rank.Three
+  commentId: F:CardEngine.Rank.Three
+  id: Three
+  parent: CardEngine.Rank
+  langs:
+  - csharp
+  - vb
+  name: Three
+  nameWithType: Rank.Three
+  fullName: CardEngine.Rank.Three
+  type: Field
+  source:
+    remote:
+      path: src/CardEngine/Rank.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: Three
+    path: ../src/CardEngine/Rank.cs
+    startLine: 11
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  syntax:
+    content: Three = 1
+    return:
+      type: CardEngine.Rank
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardEngine.Rank.Four
+  commentId: F:CardEngine.Rank.Four
+  id: Four
+  parent: CardEngine.Rank
+  langs:
+  - csharp
+  - vb
+  name: Four
+  nameWithType: Rank.Four
+  fullName: CardEngine.Rank.Four
+  type: Field
+  source:
+    remote:
+      path: src/CardEngine/Rank.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: Four
+    path: ../src/CardEngine/Rank.cs
+    startLine: 12
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  syntax:
+    content: Four = 2
+    return:
+      type: CardEngine.Rank
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardEngine.Rank.Five
+  commentId: F:CardEngine.Rank.Five
+  id: Five
+  parent: CardEngine.Rank
+  langs:
+  - csharp
+  - vb
+  name: Five
+  nameWithType: Rank.Five
+  fullName: CardEngine.Rank.Five
+  type: Field
+  source:
+    remote:
+      path: src/CardEngine/Rank.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: Five
+    path: ../src/CardEngine/Rank.cs
+    startLine: 13
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  syntax:
+    content: Five = 3
+    return:
+      type: CardEngine.Rank
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardEngine.Rank.Six
+  commentId: F:CardEngine.Rank.Six
+  id: Six
+  parent: CardEngine.Rank
+  langs:
+  - csharp
+  - vb
+  name: Six
+  nameWithType: Rank.Six
+  fullName: CardEngine.Rank.Six
+  type: Field
+  source:
+    remote:
+      path: src/CardEngine/Rank.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: Six
+    path: ../src/CardEngine/Rank.cs
+    startLine: 14
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  syntax:
+    content: Six = 4
+    return:
+      type: CardEngine.Rank
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardEngine.Rank.Seven
+  commentId: F:CardEngine.Rank.Seven
+  id: Seven
+  parent: CardEngine.Rank
+  langs:
+  - csharp
+  - vb
+  name: Seven
+  nameWithType: Rank.Seven
+  fullName: CardEngine.Rank.Seven
+  type: Field
+  source:
+    remote:
+      path: src/CardEngine/Rank.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: Seven
+    path: ../src/CardEngine/Rank.cs
+    startLine: 15
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  syntax:
+    content: Seven = 5
+    return:
+      type: CardEngine.Rank
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardEngine.Rank.Eight
+  commentId: F:CardEngine.Rank.Eight
+  id: Eight
+  parent: CardEngine.Rank
+  langs:
+  - csharp
+  - vb
+  name: Eight
+  nameWithType: Rank.Eight
+  fullName: CardEngine.Rank.Eight
+  type: Field
+  source:
+    remote:
+      path: src/CardEngine/Rank.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: Eight
+    path: ../src/CardEngine/Rank.cs
+    startLine: 16
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  syntax:
+    content: Eight = 6
+    return:
+      type: CardEngine.Rank
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardEngine.Rank.Nine
+  commentId: F:CardEngine.Rank.Nine
+  id: Nine
+  parent: CardEngine.Rank
+  langs:
+  - csharp
+  - vb
+  name: Nine
+  nameWithType: Rank.Nine
+  fullName: CardEngine.Rank.Nine
+  type: Field
+  source:
+    remote:
+      path: src/CardEngine/Rank.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: Nine
+    path: ../src/CardEngine/Rank.cs
+    startLine: 17
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  syntax:
+    content: Nine = 7
+    return:
+      type: CardEngine.Rank
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardEngine.Rank.Ten
+  commentId: F:CardEngine.Rank.Ten
+  id: Ten
+  parent: CardEngine.Rank
+  langs:
+  - csharp
+  - vb
+  name: Ten
+  nameWithType: Rank.Ten
+  fullName: CardEngine.Rank.Ten
+  type: Field
+  source:
+    remote:
+      path: src/CardEngine/Rank.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: Ten
+    path: ../src/CardEngine/Rank.cs
+    startLine: 18
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  syntax:
+    content: Ten = 8
+    return:
+      type: CardEngine.Rank
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardEngine.Rank.Jack
+  commentId: F:CardEngine.Rank.Jack
+  id: Jack
+  parent: CardEngine.Rank
+  langs:
+  - csharp
+  - vb
+  name: Jack
+  nameWithType: Rank.Jack
+  fullName: CardEngine.Rank.Jack
+  type: Field
+  source:
+    remote:
+      path: src/CardEngine/Rank.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: Jack
+    path: ../src/CardEngine/Rank.cs
+    startLine: 19
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  syntax:
+    content: Jack = 9
+    return:
+      type: CardEngine.Rank
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardEngine.Rank.Queen
+  commentId: F:CardEngine.Rank.Queen
+  id: Queen
+  parent: CardEngine.Rank
+  langs:
+  - csharp
+  - vb
+  name: Queen
+  nameWithType: Rank.Queen
+  fullName: CardEngine.Rank.Queen
+  type: Field
+  source:
+    remote:
+      path: src/CardEngine/Rank.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: Queen
+    path: ../src/CardEngine/Rank.cs
+    startLine: 20
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  syntax:
+    content: Queen = 10
+    return:
+      type: CardEngine.Rank
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardEngine.Rank.King
+  commentId: F:CardEngine.Rank.King
+  id: King
+  parent: CardEngine.Rank
+  langs:
+  - csharp
+  - vb
+  name: King
+  nameWithType: Rank.King
+  fullName: CardEngine.Rank.King
+  type: Field
+  source:
+    remote:
+      path: src/CardEngine/Rank.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: King
+    path: ../src/CardEngine/Rank.cs
+    startLine: 21
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  syntax:
+    content: King = 11
+    return:
+      type: CardEngine.Rank
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardEngine.Rank.Ace
+  commentId: F:CardEngine.Rank.Ace
+  id: Ace
+  parent: CardEngine.Rank
+  langs:
+  - csharp
+  - vb
+  name: Ace
+  nameWithType: Rank.Ace
+  fullName: CardEngine.Rank.Ace
+  type: Field
+  source:
+    remote:
+      path: src/CardEngine/Rank.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: Ace
+    path: ../src/CardEngine/Rank.cs
+    startLine: 22
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  syntax:
+    content: Ace = 12
+    return:
+      type: CardEngine.Rank
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: CardEngine.Card
+  commentId: T:CardEngine.Card
+  parent: CardEngine
+  name: Card
+  nameWithType: Card
+  fullName: CardEngine.Card
+- uid: CardEngine
+  commentId: N:CardEngine
+  name: CardEngine
+  nameWithType: CardEngine
+  fullName: CardEngine
+- uid: CardEngine.Rank.CardEngine.RankExtensions.ToShortString
+  commentId: M:CardEngine.RankExtensions.ToShortString(CardEngine.Rank)
+  parent: CardEngine.RankExtensions
+  definition: CardEngine.RankExtensions.ToShortString(CardEngine.Rank)
+  name: ToShortString()
+  nameWithType: RankExtensions.ToShortString()
+  fullName: CardEngine.RankExtensions.ToShortString()
+  spec.csharp:
+  - uid: CardEngine.RankExtensions.ToShortString
+    name: ToShortString
+    nameWithType: RankExtensions.ToShortString
+    fullName: CardEngine.RankExtensions.ToShortString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CardEngine.RankExtensions.ToShortString
+    name: ToShortString
+    nameWithType: RankExtensions.ToShortString
+    fullName: CardEngine.RankExtensions.ToShortString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CardEngine.RankExtensions.ToShortString(CardEngine.Rank)
+  commentId: M:CardEngine.RankExtensions.ToShortString(CardEngine.Rank)
+  name: ToShortString(Rank)
+  nameWithType: RankExtensions.ToShortString(Rank)
+  fullName: CardEngine.RankExtensions.ToShortString(CardEngine.Rank)
+  spec.csharp:
+  - uid: CardEngine.RankExtensions.ToShortString(CardEngine.Rank)
+    name: ToShortString
+    nameWithType: RankExtensions.ToShortString
+    fullName: CardEngine.RankExtensions.ToShortString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CardEngine.Rank
+    name: Rank
+    nameWithType: Rank
+    fullName: CardEngine.Rank
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CardEngine.RankExtensions.ToShortString(CardEngine.Rank)
+    name: ToShortString
+    nameWithType: RankExtensions.ToShortString
+    fullName: CardEngine.RankExtensions.ToShortString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CardEngine.Rank
+    name: Rank
+    nameWithType: Rank
+    fullName: CardEngine.Rank
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CardEngine.RankExtensions
+  commentId: T:CardEngine.RankExtensions
+  parent: CardEngine
+  name: RankExtensions
+  nameWithType: RankExtensions
+  fullName: CardEngine.RankExtensions
+- uid: CardEngine.Rank
+  commentId: T:CardEngine.Rank
+  parent: CardEngine
+  name: Rank
+  nameWithType: Rank
+  fullName: CardEngine.Rank

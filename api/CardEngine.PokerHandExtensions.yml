@@ -1,0 +1,472 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardEngine.PokerHandExtensions
+  commentId: T:CardEngine.PokerHandExtensions
+  id: PokerHandExtensions
+  parent: CardEngine
+  children:
+  - CardEngine.PokerHandExtensions.Evaluate(CardEngine.PokerHand)
+  - CardEngine.PokerHandExtensions.IsFull(CardEngine.PokerHand)
+  langs:
+  - csharp
+  - vb
+  name: PokerHandExtensions
+  nameWithType: PokerHandExtensions
+  fullName: CardEngine.PokerHandExtensions
+  type: Class
+  source:
+    remote:
+      path: src/CardEngine/PokerHand.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: PokerHandExtensions
+    path: ../src/CardEngine/PokerHand.cs
+    startLine: 37
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  summary: "\nExtension methods for the PokerHand class.\n"
+  example: []
+  syntax:
+    content: public static class PokerHandExtensions
+    content.vb: Public Module PokerHandExtensions
+  see:
+  - linkId: CardEngine.PokerHand
+    commentId: T:CardEngine.PokerHand
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: CardEngine.PokerHandExtensions.IsFull(CardEngine.PokerHand)
+  commentId: M:CardEngine.PokerHandExtensions.IsFull(CardEngine.PokerHand)
+  id: IsFull(CardEngine.PokerHand)
+  isExtensionMethod: true
+  parent: CardEngine.PokerHandExtensions
+  langs:
+  - csharp
+  - vb
+  name: IsFull(PokerHand)
+  nameWithType: PokerHandExtensions.IsFull(PokerHand)
+  fullName: CardEngine.PokerHandExtensions.IsFull(CardEngine.PokerHand)
+  type: Method
+  source:
+    remote:
+      path: src/CardEngine/PokerHand.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: IsFull
+    path: ../src/CardEngine/PokerHand.cs
+    startLine: 44
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  summary: "\nDetermines whether the PokerHand contains its maximum number of 7 cards.\n"
+  example: []
+  syntax:
+    content: public static bool IsFull(this PokerHand hand)
+    parameters:
+    - id: hand
+      type: CardEngine.PokerHand
+      description: The PokerHand to evaluate.
+    return:
+      type: System.Boolean
+      description: True if the PokerHand is full. False if the PokerHand is not full.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsFull(hand As PokerHand) As Boolean
+  overload: CardEngine.PokerHandExtensions.IsFull*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CardEngine.PokerHandExtensions.Evaluate(CardEngine.PokerHand)
+  commentId: M:CardEngine.PokerHandExtensions.Evaluate(CardEngine.PokerHand)
+  id: Evaluate(CardEngine.PokerHand)
+  isExtensionMethod: true
+  parent: CardEngine.PokerHandExtensions
+  langs:
+  - csharp
+  - vb
+  name: Evaluate(PokerHand)
+  nameWithType: PokerHandExtensions.Evaluate(PokerHand)
+  fullName: CardEngine.PokerHandExtensions.Evaluate(CardEngine.PokerHand)
+  type: Method
+  source:
+    remote:
+      path: src/CardEngine/PokerHand.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: Evaluate
+    path: ../src/CardEngine/PokerHand.cs
+    startLine: 55
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  summary: "\nEvaluates the PokerHandRanking of the given PokerHand.\n"
+  example: []
+  syntax:
+    content: public static PokerHandRanking Evaluate(this PokerHand hand)
+    parameters:
+    - id: hand
+      type: CardEngine.PokerHand
+      description: The PokerHand to evaluate.
+    return:
+      type: CardEngine.PokerHandRanking
+      description: The PokerHandRanking of the PokerHand.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Evaluate(hand As PokerHand) As PokerHandRanking
+  overload: CardEngine.PokerHandExtensions.Evaluate*
+  see:
+  - linkId: CardEngine.PokerHandRanking
+    commentId: T:CardEngine.PokerHandRanking
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: CardEngine.PokerHand
+  commentId: T:CardEngine.PokerHand
+  parent: CardEngine
+  name: PokerHand
+  nameWithType: PokerHand
+  fullName: CardEngine.PokerHand
+- uid: CardEngine
+  commentId: N:CardEngine
+  name: CardEngine
+  nameWithType: CardEngine
+  fullName: CardEngine
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CardEngine.PokerHandExtensions.IsFull*
+  commentId: Overload:CardEngine.PokerHandExtensions.IsFull
+  name: IsFull
+  nameWithType: PokerHandExtensions.IsFull
+  fullName: CardEngine.PokerHandExtensions.IsFull
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: CardEngine.PokerHandRanking
+  commentId: T:CardEngine.PokerHandRanking
+  parent: CardEngine
+  name: PokerHandRanking
+  nameWithType: PokerHandRanking
+  fullName: CardEngine.PokerHandRanking
+- uid: CardEngine.PokerHandExtensions.Evaluate*
+  commentId: Overload:CardEngine.PokerHandExtensions.Evaluate
+  name: Evaluate
+  nameWithType: PokerHandExtensions.Evaluate
+  fullName: CardEngine.PokerHandExtensions.Evaluate

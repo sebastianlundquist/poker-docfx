@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: ConsolePokerClient
+  commentId: N:ConsolePokerClient
+  id: ConsolePokerClient
+  children:
+  - ConsolePokerClient.CardPrinter
+  langs:
+  - csharp
+  - vb
+  name: ConsolePokerClient
+  nameWithType: ConsolePokerClient
+  fullName: ConsolePokerClient
+  type: Namespace
+  assemblies:
+  - ConsolePokerClient
+references:
+- uid: ConsolePokerClient.CardPrinter
+  commentId: T:ConsolePokerClient.CardPrinter
+  parent: ConsolePokerClient
+  name: CardPrinter
+  nameWithType: CardPrinter
+  fullName: ConsolePokerClient.CardPrinter
+- uid: ConsolePokerClient
+  commentId: N:ConsolePokerClient
+  name: ConsolePokerClient
+  nameWithType: ConsolePokerClient
+  fullName: ConsolePokerClient

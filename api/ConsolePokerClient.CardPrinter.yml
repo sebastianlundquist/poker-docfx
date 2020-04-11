@@ -1,0 +1,529 @@
+### YamlMime:ManagedReference
+items:
+- uid: ConsolePokerClient.CardPrinter
+  commentId: T:ConsolePokerClient.CardPrinter
+  id: CardPrinter
+  parent: ConsolePokerClient
+  children:
+  - ConsolePokerClient.CardPrinter.Print(CardEngine.Card)
+  - ConsolePokerClient.CardPrinter.Print(System.Collections.Generic.List{CardEngine.Card})
+  langs:
+  - csharp
+  - vb
+  name: CardPrinter
+  nameWithType: CardPrinter
+  fullName: ConsolePokerClient.CardPrinter
+  type: Class
+  source:
+    remote:
+      path: src/ConsolePokerClient/CardPrinter.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: CardPrinter
+    path: ../src/ConsolePokerClient/CardPrinter.cs
+    startLine: 7
+  assemblies:
+  - ConsolePokerClient
+  namespace: ConsolePokerClient
+  syntax:
+    content: public static class CardPrinter
+    content.vb: Public Module CardPrinter
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: ConsolePokerClient.CardPrinter.Print(CardEngine.Card)
+  commentId: M:ConsolePokerClient.CardPrinter.Print(CardEngine.Card)
+  id: Print(CardEngine.Card)
+  isExtensionMethod: true
+  parent: ConsolePokerClient.CardPrinter
+  langs:
+  - csharp
+  - vb
+  name: Print(Card)
+  nameWithType: CardPrinter.Print(Card)
+  fullName: ConsolePokerClient.CardPrinter.Print(CardEngine.Card)
+  type: Method
+  source:
+    remote:
+      path: src/ConsolePokerClient/CardPrinter.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: Print
+    path: ../src/ConsolePokerClient/CardPrinter.cs
+    startLine: 9
+  assemblies:
+  - ConsolePokerClient
+  namespace: ConsolePokerClient
+  syntax:
+    content: public static void Print(this Card card)
+    parameters:
+    - id: card
+      type: CardEngine.Card
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub Print(card As Card)
+  overload: ConsolePokerClient.CardPrinter.Print*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: ConsolePokerClient.CardPrinter.Print(System.Collections.Generic.List{CardEngine.Card})
+  commentId: M:ConsolePokerClient.CardPrinter.Print(System.Collections.Generic.List{CardEngine.Card})
+  id: Print(System.Collections.Generic.List{CardEngine.Card})
+  isExtensionMethod: true
+  parent: ConsolePokerClient.CardPrinter
+  langs:
+  - csharp
+  - vb
+  name: Print(List<Card>)
+  nameWithType: CardPrinter.Print(List<Card>)
+  fullName: ConsolePokerClient.CardPrinter.Print(System.Collections.Generic.List<CardEngine.Card>)
+  type: Method
+  source:
+    remote:
+      path: src/ConsolePokerClient/CardPrinter.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: Print
+    path: ../src/ConsolePokerClient/CardPrinter.cs
+    startLine: 26
+  assemblies:
+  - ConsolePokerClient
+  namespace: ConsolePokerClient
+  syntax:
+    content: public static void Print(this List<Card> cards)
+    parameters:
+    - id: cards
+      type: System.Collections.Generic.List{CardEngine.Card}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub Print(cards As List(Of Card))
+  overload: ConsolePokerClient.CardPrinter.Print*
+  nameWithType.vb: CardPrinter.Print(List(Of Card))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: ConsolePokerClient.CardPrinter.Print(System.Collections.Generic.List(Of CardEngine.Card))
+  name.vb: Print(List(Of Card))
+references:
+- uid: ConsolePokerClient
+  commentId: N:ConsolePokerClient
+  name: ConsolePokerClient
+  nameWithType: ConsolePokerClient
+  fullName: ConsolePokerClient
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ConsolePokerClient.CardPrinter.Print*
+  commentId: Overload:ConsolePokerClient.CardPrinter.Print
+  name: Print
+  nameWithType: CardPrinter.Print
+  fullName: ConsolePokerClient.CardPrinter.Print
+- uid: CardEngine.Card
+  commentId: T:CardEngine.Card
+  parent: CardEngine
+  name: Card
+  nameWithType: Card
+  fullName: CardEngine.Card
+- uid: CardEngine
+  commentId: N:CardEngine
+  name: CardEngine
+  nameWithType: CardEngine
+  fullName: CardEngine
+- uid: System.Collections.Generic.List{CardEngine.Card}
+  commentId: T:System.Collections.Generic.List{CardEngine.Card}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Card>
+  nameWithType: List<Card>
+  fullName: System.Collections.Generic.List<CardEngine.Card>
+  nameWithType.vb: List(Of Card)
+  fullName.vb: System.Collections.Generic.List(Of CardEngine.Card)
+  name.vb: List(Of Card)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CardEngine.Card
+    name: Card
+    nameWithType: Card
+    fullName: CardEngine.Card
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CardEngine.Card
+    name: Card
+    nameWithType: Card
+    fullName: CardEngine.Card
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

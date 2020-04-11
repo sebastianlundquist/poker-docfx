@@ -1,0 +1,31 @@
+### YamlMime:TableOfContent
+- uid: CardEngine
+  name: CardEngine
+  items:
+  - uid: CardEngine.Card
+    name: Card
+  - uid: CardEngine.CardExtension
+    name: CardExtension
+  - uid: CardEngine.Deck
+    name: Deck
+  - uid: CardEngine.DeckExtensions
+    name: DeckExtensions
+  - uid: CardEngine.PokerHand
+    name: PokerHand
+  - uid: CardEngine.PokerHandExtensions
+    name: PokerHandExtensions
+  - uid: CardEngine.PokerHandRanking
+    name: PokerHandRanking
+  - uid: CardEngine.Rank
+    name: Rank
+  - uid: CardEngine.RankExtensions
+    name: RankExtensions
+  - uid: CardEngine.Suit
+    name: Suit
+  - uid: CardEngine.SuitExtensions
+    name: SuitExtensions
+- uid: ConsolePokerClient
+  name: ConsolePokerClient
+  items:
+  - uid: ConsolePokerClient.CardPrinter
+    name: CardPrinter

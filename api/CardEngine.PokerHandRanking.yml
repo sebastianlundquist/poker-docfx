@@ -1,0 +1,354 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardEngine.PokerHandRanking
+  commentId: T:CardEngine.PokerHandRanking
+  id: PokerHandRanking
+  parent: CardEngine
+  children:
+  - CardEngine.PokerHandRanking.Flush
+  - CardEngine.PokerHandRanking.FourOfAKind
+  - CardEngine.PokerHandRanking.FullHouse
+  - CardEngine.PokerHandRanking.HighCard
+  - CardEngine.PokerHandRanking.Pair
+  - CardEngine.PokerHandRanking.Straight
+  - CardEngine.PokerHandRanking.StraightFlush
+  - CardEngine.PokerHandRanking.ThreeOfAKind
+  - CardEngine.PokerHandRanking.TwoPairs
+  langs:
+  - csharp
+  - vb
+  name: PokerHandRanking
+  nameWithType: PokerHandRanking
+  fullName: CardEngine.PokerHandRanking
+  type: Enum
+  source:
+    remote:
+      path: src/CardEngine/PokerHandRanking.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: PokerHandRanking
+    path: ../src/CardEngine/PokerHandRanking.cs
+    startLine: 6
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  summary: "\nRepresents the ranking of a PokerHand.\n"
+  example: []
+  syntax:
+    content: public enum PokerHandRanking
+    content.vb: Public Enum PokerHandRanking
+  see:
+  - linkId: CardEngine.PokerHand
+    commentId: T:CardEngine.PokerHand
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: CardEngine.PokerHandRanking.HighCard
+  commentId: F:CardEngine.PokerHandRanking.HighCard
+  id: HighCard
+  parent: CardEngine.PokerHandRanking
+  langs:
+  - csharp
+  - vb
+  name: HighCard
+  nameWithType: PokerHandRanking.HighCard
+  fullName: CardEngine.PokerHandRanking.HighCard
+  type: Field
+  source:
+    remote:
+      path: src/CardEngine/PokerHandRanking.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: HighCard
+    path: ../src/CardEngine/PokerHandRanking.cs
+    startLine: 8
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  syntax:
+    content: HighCard = 0
+    return:
+      type: CardEngine.PokerHandRanking
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardEngine.PokerHandRanking.Pair
+  commentId: F:CardEngine.PokerHandRanking.Pair
+  id: Pair
+  parent: CardEngine.PokerHandRanking
+  langs:
+  - csharp
+  - vb
+  name: Pair
+  nameWithType: PokerHandRanking.Pair
+  fullName: CardEngine.PokerHandRanking.Pair
+  type: Field
+  source:
+    remote:
+      path: src/CardEngine/PokerHandRanking.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: Pair
+    path: ../src/CardEngine/PokerHandRanking.cs
+    startLine: 9
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  syntax:
+    content: Pair = 1
+    return:
+      type: CardEngine.PokerHandRanking
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardEngine.PokerHandRanking.TwoPairs
+  commentId: F:CardEngine.PokerHandRanking.TwoPairs
+  id: TwoPairs
+  parent: CardEngine.PokerHandRanking
+  langs:
+  - csharp
+  - vb
+  name: TwoPairs
+  nameWithType: PokerHandRanking.TwoPairs
+  fullName: CardEngine.PokerHandRanking.TwoPairs
+  type: Field
+  source:
+    remote:
+      path: src/CardEngine/PokerHandRanking.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: TwoPairs
+    path: ../src/CardEngine/PokerHandRanking.cs
+    startLine: 10
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  syntax:
+    content: TwoPairs = 2
+    return:
+      type: CardEngine.PokerHandRanking
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardEngine.PokerHandRanking.ThreeOfAKind
+  commentId: F:CardEngine.PokerHandRanking.ThreeOfAKind
+  id: ThreeOfAKind
+  parent: CardEngine.PokerHandRanking
+  langs:
+  - csharp
+  - vb
+  name: ThreeOfAKind
+  nameWithType: PokerHandRanking.ThreeOfAKind
+  fullName: CardEngine.PokerHandRanking.ThreeOfAKind
+  type: Field
+  source:
+    remote:
+      path: src/CardEngine/PokerHandRanking.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: ThreeOfAKind
+    path: ../src/CardEngine/PokerHandRanking.cs
+    startLine: 11
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  syntax:
+    content: ThreeOfAKind = 3
+    return:
+      type: CardEngine.PokerHandRanking
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardEngine.PokerHandRanking.Straight
+  commentId: F:CardEngine.PokerHandRanking.Straight
+  id: Straight
+  parent: CardEngine.PokerHandRanking
+  langs:
+  - csharp
+  - vb
+  name: Straight
+  nameWithType: PokerHandRanking.Straight
+  fullName: CardEngine.PokerHandRanking.Straight
+  type: Field
+  source:
+    remote:
+      path: src/CardEngine/PokerHandRanking.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: Straight
+    path: ../src/CardEngine/PokerHandRanking.cs
+    startLine: 12
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  syntax:
+    content: Straight = 4
+    return:
+      type: CardEngine.PokerHandRanking
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardEngine.PokerHandRanking.Flush
+  commentId: F:CardEngine.PokerHandRanking.Flush
+  id: Flush
+  parent: CardEngine.PokerHandRanking
+  langs:
+  - csharp
+  - vb
+  name: Flush
+  nameWithType: PokerHandRanking.Flush
+  fullName: CardEngine.PokerHandRanking.Flush
+  type: Field
+  source:
+    remote:
+      path: src/CardEngine/PokerHandRanking.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: Flush
+    path: ../src/CardEngine/PokerHandRanking.cs
+    startLine: 13
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  syntax:
+    content: Flush = 5
+    return:
+      type: CardEngine.PokerHandRanking
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardEngine.PokerHandRanking.FullHouse
+  commentId: F:CardEngine.PokerHandRanking.FullHouse
+  id: FullHouse
+  parent: CardEngine.PokerHandRanking
+  langs:
+  - csharp
+  - vb
+  name: FullHouse
+  nameWithType: PokerHandRanking.FullHouse
+  fullName: CardEngine.PokerHandRanking.FullHouse
+  type: Field
+  source:
+    remote:
+      path: src/CardEngine/PokerHandRanking.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: FullHouse
+    path: ../src/CardEngine/PokerHandRanking.cs
+    startLine: 14
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  syntax:
+    content: FullHouse = 6
+    return:
+      type: CardEngine.PokerHandRanking
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardEngine.PokerHandRanking.FourOfAKind
+  commentId: F:CardEngine.PokerHandRanking.FourOfAKind
+  id: FourOfAKind
+  parent: CardEngine.PokerHandRanking
+  langs:
+  - csharp
+  - vb
+  name: FourOfAKind
+  nameWithType: PokerHandRanking.FourOfAKind
+  fullName: CardEngine.PokerHandRanking.FourOfAKind
+  type: Field
+  source:
+    remote:
+      path: src/CardEngine/PokerHandRanking.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: FourOfAKind
+    path: ../src/CardEngine/PokerHandRanking.cs
+    startLine: 15
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  syntax:
+    content: FourOfAKind = 7
+    return:
+      type: CardEngine.PokerHandRanking
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardEngine.PokerHandRanking.StraightFlush
+  commentId: F:CardEngine.PokerHandRanking.StraightFlush
+  id: StraightFlush
+  parent: CardEngine.PokerHandRanking
+  langs:
+  - csharp
+  - vb
+  name: StraightFlush
+  nameWithType: PokerHandRanking.StraightFlush
+  fullName: CardEngine.PokerHandRanking.StraightFlush
+  type: Field
+  source:
+    remote:
+      path: src/CardEngine/PokerHandRanking.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: StraightFlush
+    path: ../src/CardEngine/PokerHandRanking.cs
+    startLine: 16
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  syntax:
+    content: StraightFlush = 8
+    return:
+      type: CardEngine.PokerHandRanking
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: CardEngine.PokerHand
+  commentId: T:CardEngine.PokerHand
+  parent: CardEngine
+  name: PokerHand
+  nameWithType: PokerHand
+  fullName: CardEngine.PokerHand
+- uid: CardEngine
+  commentId: N:CardEngine
+  name: CardEngine
+  nameWithType: CardEngine
+  fullName: CardEngine
+- uid: CardEngine.PokerHandRanking
+  commentId: T:CardEngine.PokerHandRanking
+  parent: CardEngine
+  name: PokerHandRanking
+  nameWithType: PokerHandRanking
+  fullName: CardEngine.PokerHandRanking

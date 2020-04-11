@@ -1,0 +1,470 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardEngine.SuitExtensions
+  commentId: T:CardEngine.SuitExtensions
+  id: SuitExtensions
+  parent: CardEngine
+  children:
+  - CardEngine.SuitExtensions.Color(CardEngine.Suit)
+  - CardEngine.SuitExtensions.ToShortString(CardEngine.Suit)
+  langs:
+  - csharp
+  - vb
+  name: SuitExtensions
+  nameWithType: SuitExtensions
+  fullName: CardEngine.SuitExtensions
+  type: Class
+  source:
+    remote:
+      path: src/CardEngine/Suit.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: SuitExtensions
+    path: ../src/CardEngine/Suit.cs
+    startLine: 20
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  summary: "\nExtension methods for the Suit enum.\n"
+  example: []
+  syntax:
+    content: public static class SuitExtensions
+    content.vb: Public Module SuitExtensions
+  see:
+  - linkId: CardEngine.Suit
+    commentId: T:CardEngine.Suit
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: CardEngine.SuitExtensions.ToShortString(CardEngine.Suit)
+  commentId: M:CardEngine.SuitExtensions.ToShortString(CardEngine.Suit)
+  id: ToShortString(CardEngine.Suit)
+  isExtensionMethod: true
+  parent: CardEngine.SuitExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToShortString(Suit)
+  nameWithType: SuitExtensions.ToShortString(Suit)
+  fullName: CardEngine.SuitExtensions.ToShortString(CardEngine.Suit)
+  type: Method
+  source:
+    remote:
+      path: src/CardEngine/Suit.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: ToShortString
+    path: ../src/CardEngine/Suit.cs
+    startLine: 27
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  summary: "\nConverts the Suit to its equivalent shortened string representation.\n"
+  example: []
+  syntax:
+    content: public static char ToShortString(this Suit suit)
+    parameters:
+    - id: suit
+      type: CardEngine.Suit
+      description: The Suit.
+    return:
+      type: System.Char
+      description: The shortened string representation.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToShortString(suit As Suit) As Char
+  overload: CardEngine.SuitExtensions.ToShortString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CardEngine.SuitExtensions.Color(CardEngine.Suit)
+  commentId: M:CardEngine.SuitExtensions.Color(CardEngine.Suit)
+  id: Color(CardEngine.Suit)
+  isExtensionMethod: true
+  parent: CardEngine.SuitExtensions
+  langs:
+  - csharp
+  - vb
+  name: Color(Suit)
+  nameWithType: SuitExtensions.Color(Suit)
+  fullName: CardEngine.SuitExtensions.Color(CardEngine.Suit)
+  type: Method
+  source:
+    remote:
+      path: src/CardEngine/Suit.cs
+      branch: master
+      repo: https://github.com/sebastianlundquist/poker.git
+    id: Color
+    path: ../src/CardEngine/Suit.cs
+    startLine: 49
+  assemblies:
+  - CardEngine
+  namespace: CardEngine
+  summary: "\nGets the color of the Suit as a ConsoleColor.\n"
+  example: []
+  syntax:
+    content: public static ConsoleColor Color(this Suit suit)
+    parameters:
+    - id: suit
+      type: CardEngine.Suit
+      description: The Suit.
+    return:
+      type: System.ConsoleColor
+      description: The ConsoleColor.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Color(suit As Suit) As ConsoleColor
+  overload: CardEngine.SuitExtensions.Color*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: CardEngine.Suit
+  commentId: T:CardEngine.Suit
+  parent: CardEngine
+  name: Suit
+  nameWithType: Suit
+  fullName: CardEngine.Suit
+- uid: CardEngine
+  commentId: N:CardEngine
+  name: CardEngine
+  nameWithType: CardEngine
+  fullName: CardEngine
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CardEngine.SuitExtensions.ToShortString*
+  commentId: Overload:CardEngine.SuitExtensions.ToShortString
+  name: ToShortString
+  nameWithType: SuitExtensions.ToShortString
+  fullName: CardEngine.SuitExtensions.ToShortString
+- uid: System.Char
+  commentId: T:System.Char
+  parent: System
+  isExternal: true
+  name: Char
+  nameWithType: Char
+  fullName: System.Char
+- uid: CardEngine.SuitExtensions.Color*
+  commentId: Overload:CardEngine.SuitExtensions.Color
+  name: Color
+  nameWithType: SuitExtensions.Color
+  fullName: CardEngine.SuitExtensions.Color
+- uid: System.ConsoleColor
+  commentId: T:System.ConsoleColor
+  parent: System
+  isExternal: true
+  name: ConsoleColor
+  nameWithType: ConsoleColor
+  fullName: System.ConsoleColor

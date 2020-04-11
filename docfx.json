@@ -4,12 +4,12 @@
       "src": [
         {
           "files": [
-            "src/**.csproj"
+            "src/**/*.csproj"
           ],
           "exclude": [
-            "src/**Tests.csproj"
+            "src/**/*Tests.csproj"
           ],
-          "src": "../docs/poker/"
+          "src": "poker/"
         }
       ],
       "dest": "api",

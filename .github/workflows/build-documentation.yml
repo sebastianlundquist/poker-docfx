@@ -23,7 +23,7 @@ jobs:
         ref: master
         path: docs/live
     - name: Clear live docs repo
-      run: rm -rf docs/live/*
+      run: rm -rf live/*
     - name: Checkout poker
       uses: actions/checkout@v1
       with:
@@ -47,7 +47,11 @@ jobs:
         unzip -d .docfx docfx.zip
 
     - name: Build docs
-      run: mono .docfx/docfx.exe
+      run: |
+        cd docs
+        ls
+        cd ..
+        mono .docfx/docfx.exe
       
     - name: Commit and push
       run: |

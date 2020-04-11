@@ -4,10 +4,10 @@
       "src": [
         {
           "files": [
-            "poker/src/**/*.csproj"
+            "docs/poker/src/**/*.csproj"
           ],
           "exclude": [
-            "poker/src/**/*Tests.csproj"
+            "docs/poker/src/**/*Tests.csproj"
           ]
         }
       ],

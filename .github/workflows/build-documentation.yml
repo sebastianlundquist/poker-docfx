@@ -23,7 +23,7 @@ jobs:
         ref: master
         path: docs/live
     - name: Clear live docs repo
-      run: rm -rf live/*
+      run: rm -rf *
     - name: Checkout poker
       uses: actions/checkout@v1
       with:

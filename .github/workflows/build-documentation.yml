@@ -44,14 +44,10 @@ jobs:
     - name: Get docfx
       run: |
         curl -L https://github.com/dotnet/docfx/releases/latest/download/docfx.zip -o docfx.zip
-        unzip -d docs docfx.zip
+        unzip -d .docfx docfx.zip
 
     - name: Build docs
-      run: |
-        ls
-        cd docs
-        ls
-        mono docfx build
+      run: mono .docfx/docfx.exe
       
     - name: Commit and push
       run: |

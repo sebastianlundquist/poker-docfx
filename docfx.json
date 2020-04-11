@@ -9,7 +9,7 @@
           "exclude": [
             "src/**Tests.csproj"
           ],
-          "src": "../docs/poker"
+          "src": "../docs/poker/"
         }
       ],
       "dest": "api",

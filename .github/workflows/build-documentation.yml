@@ -52,8 +52,8 @@ jobs:
     - name: Commit and push
       run: |
         cd live
-        git config --global user.email "dev.sebastian.lundquist@gmail.com"
-        git config --global user.name "Automated System"
+        git config --global user.email "sebastian.lundquist@gmail.com"
+        git config --global user.name "sebastianlundquist"
         git add .
         git commit -m "Automated update" --author $GITHUB_ACTOR
         header=$(echo -n "ad-m:$" | base64)

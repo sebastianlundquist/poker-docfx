@@ -55,6 +55,4 @@ jobs:
         git config --global user.email "sebastian.lundquist@gmail.com"
         git config --global user.name "sebastianlundquist"
         git add .
-        git commit -m "Automated update" --author $GITHUB_ACTOR
-        header=$(echo -n "ad-m:${{ secrets.DOC_MGMT_TOKEN }}" | base64)
-        git -c http.extraheader="AUTHORIZATION: basic $header" push origin HEAD:master
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Automated update" --author $GITHUB_ACTOR; header=$(echo -n "ad-m:${{ secrets.DOC_MGMT_TOKEN }}" | base64); git -c http.extraheader="AUTHORIZATION: basic $header" push origin HEAD:master)
